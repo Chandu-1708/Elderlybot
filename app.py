@@ -11,7 +11,7 @@ from flask import request, redirect
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret!'
 socketio = SocketIO(app)
-openai.api_key = "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"
+openai.api_key = "your-API-key"
 
 messages = []
 
